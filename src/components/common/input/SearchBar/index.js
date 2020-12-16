@@ -59,6 +59,12 @@ const S = {};
 
 S.Wrap = styled.div`
   position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    border: 1px solid yellow;
+  }
 `;
 
 S.IconWrap = styled.div`
